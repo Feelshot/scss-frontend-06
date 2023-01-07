@@ -88,5 +88,32 @@ body {
 
         }
     }
-    footer {.attribution {font-size: 11px; text-align: center; a {color: hsl(228, 45%, 44%);}}}
+    footer {margin-top: 60px; .attribution {font-size: 11px; text-align: center; a {color: hsl(228, 45%, 44%);}}}
+}
+
+
+/* ==== MOBILE ==== */
+@media (min-width: 100px) and (max-width: 600px) {
+    body {     
+        .head-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+                font-size: 26px;
+            }
+            h2 {
+                font-size: 26px;
+            }
+            p {
+                width: 80%;
+            }
+        }
+        .tags-container {
+            section {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    } 
 }
